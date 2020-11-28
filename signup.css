@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"] {
+    border: 4px solid #581c41;
+}
+
+.bg {
+    background: linear-gradient(to bottom right, #851d41, #d89cf6, #004445) !important;
+    padding: 20px;
+}
+#inputAdmision{
+    border: 4px solid #581c41;
+}
+select:hover{
+    border: 4px solid #6b0265;
+    border-radius: 40px 40px 40px 40px;
+    background: #b6d6d4;
+    color: #2c013a;
+    transition: .8s cubic-bezier(0, 0, 0.57, 0.21);
+}
+
+h1 {
+    color: #581c41;
+    text-align: center;
+}
+
+input:hover {
+    border: 4px solid #6b0265;
+    border-radius: 40px 40px 40px 40px;
+    background: #b6d6d4;
+    color: #2c013a;
+    transition: .8s cubic-bezier(0, 0, 0.57, 0.21);
+}
+button:hover{
+    border: 1px solid #6b0265;
+    border-radius: 40px 40px 40px 40px;
+    color: #581c41 !important;
+    transition: .8s cubic-bezier(0, 0, 0.57, 0.21);  
+}
